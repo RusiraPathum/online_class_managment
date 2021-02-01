@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+#login{
+    background-color: #f7631b !important;
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+.forgot{
+    color: #f7631b !important;
+}
+
+.reset_btn{
+    background-color: #f7631b !important;
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+#back_to{
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+
+/*All course Css*/
+
+.all-courses .container .row nav > .nav.nav-tabs{
+
+    border: none;
+    color:#fff;
+    background:#1f2230;
+    border-radius:0;
+
+}
+.all-courses .container .row nav > div a.nav-item.nav-link,
+.all-courses .container .row nav > div a.nav-item.nav-link.active
+{
+    border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#1f2230;
+    border-radius:0;
+}
+
+.all-courses .container .row nav > div a.nav-item.nav-link.active:after
+{
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #f7631b ;
+}
+.tab-content{
+    /*background: #fdfdfd;*/
+    line-height: 25px;
+    /*border: 1px solid #ddd;*/
+    border-top:5px solid #f7631b;
+    border-bottom:5px solid #f7631b;
+    padding:30px 25px;
+}
+
+.all-courses .container .row nav > div a.nav-item.nav-link:hover,
+.all-courses .container .row nav > div a.nav-item.nav-link:focus
+{
+    border: none;
+    background: #f7631b;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+.card_con{
+
+    border: none !important;
+}
+
+/*==========================course page =========================*/
+/*banner_area css*/
+
+.banner_area{
+    height: 600px !important;
+    /*background: url("../img/math-numbers-algebra-difficulty-wallpaper-preview.jpg");*/
+    background: #242121;
+}
+.learn_content .row .col-lg-6 .row .col-6 img{
+    border-radius: 50%;
+    height: 80%;
+}
+
+.main_content{
+    height: auto;
+    display: flex;
+}
+
+.main_content .all_section{
+
+}
+.main_content .checkout_content{
+    position: sticky;
+    top: 0;
+    max-width: 25%;
+    min-width: 25%;
+    height: 650px;
+    /*background-color: #992d2d;*/
+}
+.checkout_content{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.checkout_content .embed-responsive .embed-responsive-item{
+    width: 100%;
+    height: auto;
+}
+
+.checkout_content.description{
+    padding: 10px;
+    background-color: #0a2b1d;
+}
+
+#addToCart{
+    text-align: center;
+    background-color: #f7631b !important;
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+/*#addToCart:hover{*/
+/*    background-color: white!important;*/
+/*    color: #f7631b;*/
+/*    border-color: #f7631b!important;*/
+/*    outline-color: #f7631b!important;*/
+/*}*/
+#buyNow{
+    text-align: center;
+    background-color: #c4b7b1 !important;
+    line-height: 42px;
+    border: none;
+    color: #000000;
+    display: inline-block;
+    font-weight: 500;
+}
